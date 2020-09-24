@@ -7,30 +7,53 @@
     <link rel="stylesheet" href="./styles/index.scss" />
   </head>
   <body>
-    <header>
-      <h1>Logo</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#">Work</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+    <header id="home">
+      <div class="container">
+        <h1>Logo</h1>
+        <button class="menu-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <g class="menu-icon">
+              <path
+                class="heroicon-ui"
+                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+              />
+            </g>
+            <g class="close-icon">
+              <path
+                class="heroicon-ui"
+                d="M16.24 14.83a1 1 0 0 1-1.41 1.41L12 13.41l-2.83 2.83a1 1 0 0 1-1.41-1.41L10.59 12 7.76 9.17a1 1 0 0 1 1.41-1.41L12 10.59l2.83-2.83a1 1 0 0 1 1.41 1.41L13.41 12l2.83 2.83z"
+              />
+            </g>
+          </svg>
+        </button>
+        <nav>
+          <ul>
+            <li>
+              <a href="#top">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="/">Work</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="/">Blog</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- End header -->
 
@@ -178,5 +201,7 @@
         </div>
       </div>
     </footer>
+    <!-- End footer -->
+    <script src="./js/index.js"></script>
   </body>
 </html>
