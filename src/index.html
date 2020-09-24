@@ -3,9 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>The Digital Embassy | Frontend exercise</title>
+    <link rel="stylesheet" href="./styles/index.scss" />
   </head>
   <body>
-    <h1>Hello World</h1>
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#">Work</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End header -->
+
+    <main id="#main-content">
+      <section class="hero">
+        <h2>Headline text</h2>
+      </section>
+      <!-- End hero section -->
+
+      <section class="about" id="about">
+        <h3>Our company by numbers</h3>
+        <div class="about-items">
+          <div class="about-item">
+            <div class="about-item-icon"></div>
+            <p class="about-item-title">1,295,365</p>
+            <p class="about-item-detail">Lorem ipsum</p>
+          </div>
+          <div class="about-item">
+            <div class="about-item-icon"></div>
+            <p class="about-item-title">5,365</p>
+            <p class="about-item-detail">Lorem ipsum</p>
+          </div>
+          <div class="about-item">
+            <div class="about-item-icon"></div>
+            <p class="about-item-title">895,365</p>
+            <p class="about-item-detail">Lorem ipsum</p>
+          </div>
+          <div class="about-item">
+            <div class="about-item-icon"></div>
+            <p class="about-item-title">65</p>
+            <p class="about-item-detail">Lorem ipsum</p>
+          </div>
+          <div class="about-item">
+            <div class="about-item-icon"></div>
+            <p class="about-item-title">365</p>
+            <p class="about-item-detail">Lorem ipsum</p>
+          </div>
+        </div>
+      </section>
+      <!-- End about section -->
+
+      <section class="services" id="services">
+        <div class="services-header">
+          <h3>Services We Provide</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto,
+            totam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem, corrupti nemo? Sint aut aspernatur commodi!
+          </p>
+        </div>
+        <div class="services-carousel">
+          <div class="services-item">
+            <div class="services-item-icon"></div>
+            <h4 class="services-item-title">Branding</h4>
+            <p class="services-item-detail">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              adipisci.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="services-item-icon"></div>
+            <h4 class="services-item-title">Design</h4>
+            <p class="services-item-detail">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              adipisci.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="services-item-icon"></div>
+            <h4 class="services-item-title">Development</h4>
+            <p class="services-item-detail">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              adipisci.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="services-item-icon"></div>
+            <h4 class="services-item-title">Marketing</h4>
+            <p class="services-item-detail">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              adipisci.
+            </p>
+          </div>
+          <div class="services-item">
+            <div class="services-item-icon"></div>
+            <h4 class="services-item-title">Support</h4>
+            <p class="services-item-detail">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
+              adipisci.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End services section -->
+
+      <section class="contact" id="contact">
+        <h3>Get in touch</h3>
+        <div class="contact-wrapper">
+          <div class="contact-col">
+            <form class="contact-form">
+              <label for="name">Your Name</label>
+              <input type="text" name="name" id="name" required />
+              <label for="email">Your Email</label>
+              <input type="email" name="email" id="email" required />
+              <label for="message">Your message</label>
+              <textarea name="message" id="message" rows="5"></textarea>
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+          <div class="contact-col">
+            <p class="contact-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              facere accusamus quo eum ipsa obcaecati!
+            </p>
+            <p class="contact-address">
+              1600 Pennsylvania Ave, NW, Washington, SC, 20500, United States of
+              America
+            </p>
+            <p class="contact-phone">
+              <span>(202) 456-1111</span><span>M:(202) 456-1212</span>
+            </p>
+            <div class="contact-social">
+              <a href="#" class="contact-social-icon">Facebook</a>
+              <a href="#" class="contact-social-icon">Twitter</a>
+              <a href="#" class="contact-social-icon">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End contact section -->
+    </main>
+    <!-- End main content -->
+
+    <footer>
+      <div>
+        <div class="footer-logo"></div>
+        <p class="footer-info"></p>
+        <div class="footer-social">
+          <a href="#" class="footer-social-icon">Facebook</a>
+          <a href="#" class="footer-social-icon">Twitter</a>
+          <a href="#" class="footer-social-icon">Instagram</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
