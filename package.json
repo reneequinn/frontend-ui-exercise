@@ -1,0 +1,18 @@
+{
+  "name": "frontend-ui-exercise",
+  "version": "1.0.0",
+  "description": "The Digital Embassy front-end developer exercise",
+  "main": "index.html",
+  "repository": "git@github.com:reneequinn/frontend-ui-exercise.git",
+  "author": "Renee Quinn <reneequinn17@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11"
+  }
+}
