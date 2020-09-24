@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@700&display=swap');
+
+:root {
+  // colours
+  --black: #111;
+  --white: #fafafa;
+  --font-black: rgba(0, 0, 0, 0.87);
+  --ecru: #ada075;
+  --lt-ecru: #c0b695;
+  --dk-ecru: #968859;
+  --dk-grey: #393939;
+  --lt-grey: #f2f0eb;
+
+  --primary: var(--ecru);
+  --primary-lt: var(--lt-ecru);
+  --primary-dk: var(--dk-ecru);
+
+  // typography
+  --font-color: var(--font-black);
+  --body-font: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --heading-font: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --heading-weight: 700;
+  --base-font-size: 16px;
+  --letter-spacing: 0.5px;
+  --line-height: 1.5;
+
+  // font sizes
+  --heading-one: 2.5rem;
+  --heading-two: 2.25rem;
+  --heading-three: 2rem;
+  --heading-four: 1.75rem;
+  --heading-five: 1.5rem;
+  --heading-six: 1.25rem;
+
+  // box shadows and background colors
+  --background: var(--lt-grey);
+  --background-dk: var(--dk-grey);
+  --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
