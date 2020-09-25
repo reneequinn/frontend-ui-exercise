@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: center;
   border: none;
+  box-shadow: none;
+  width: 5rem;
+  height: 5rem;
 
   &:hover {
     background: rgba(0, 0, 0, 0.7);
@@ -14,94 +17,105 @@
   }
 }
 
-.glide__slide {
-  height: 95vh;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5);
-  background-position: center center;
-  background-size: cover;
-  overflow: hidden;
-  background-blend-mode: soft-light;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hero {
+  .glide__slide {
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    background-blend-mode: soft-light;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  .slide-content {
-    color: var(--white);
-    text-align: center;
-    width: 50%;
-    margin: 0 auto;
-
-    h2 {
-      margin-bottom: 1.5rem;
-    }
-
-    p {
-      margin-top: 0;
-      margin-bottom: 2rem;
-    }
-
-    a {
-      color: var(--black);
-      background: var(--primary);
-      text-decoration: none;
-      padding: 1rem 1.5rem;
-      text-transform: uppercase;
-      font-weight: var(--heading-weight);
-      display: inline-block;
-
-      &:hover {
-        background: var(--primary-dk);
-      }
-    }
-
-    @include min-md {
-      width: 70%;
+    .slide-content {
+      color: var(--white);
+      text-align: center;
+      width: 50%;
+      margin: 0 auto;
 
       h2 {
-        font-size: 3rem;
         margin-bottom: 1.5rem;
       }
 
       p {
-        font-size: 1.5rem;
         margin-top: 0;
         margin-bottom: 2rem;
       }
 
       a {
-        font-size: 1.5rem;
+        color: var(--black);
+        background: var(--primary);
+        text-decoration: none;
+        padding: 1rem 1.5rem;
+        text-transform: uppercase;
+        font-weight: var(--heading-weight);
+        display: inline-block;
+
+        &:hover {
+          background: var(--primary-dk);
+        }
+      }
+
+      @include min-md {
+        width: 70%;
+
+        h2 {
+          font-size: 3rem;
+          margin-bottom: 1.5rem;
+        }
+
+        p {
+          font-size: 1.5rem;
+          margin-top: 0;
+          margin-bottom: 2rem;
+        }
+
+        a {
+          font-size: 1.5rem;
+        }
       }
     }
-  }
 
-  &.item-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-      url('../img/hero-1-sm.jpg');
-
-    @include min-lg {
+    &.item-1 {
       background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
-        url('../img/hero-1-lg.jpg');
+        url('../img/hero-1-sm.jpg');
+
+      @include min-lg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.9),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('../img/hero-1-lg.jpg');
+      }
     }
-  }
 
-  &.item-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-      url('../img/hero-2-sm.jpg');
-
-    @include min-lg {
+    &.item-2 {
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url('../img/hero-2-lg.jpg');
+        url('../img/hero-2-sm.jpg');
+
+      @include min-lg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url('../img/hero-2-lg.jpg');
+      }
     }
-  }
 
-  &.item-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-      url('../img/hero-3-sm.jpg');
-
-    @include min-lg {
+    &.item-3 {
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
-        url('../img/hero-3-lg.jpg');
+        url('../img/hero-3-sm.jpg');
+
+      @include min-lg {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.3)
+          ),
+          url('../img/hero-3-lg.jpg');
+      }
     }
   }
 }

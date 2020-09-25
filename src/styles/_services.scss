@@ -1,0 +1,43 @@
+.services-header {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+.services-carousel {
+  padding: 3rem 0;
+}
+
+.services-item {
+  padding: 0 3rem;
+}
+
+.services-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  svg {
+    width: 5rem;
+    height: 5rem;
+    stroke: var(--dk-grey);
+  }
+}
+
+.services-item-title {
+  color: var(--primary-dk);
+}
+
+.services-carousel .glide__arrow {
+  width: 4rem;
+  height: 4rem;
+  &:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    stroke: var(--black);
+  }
+}
