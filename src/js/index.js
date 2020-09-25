@@ -35,3 +35,9 @@ const servicesGlide = new Glide('.services-carousel', {
 });
 
 servicesGlide.mount();
+
+// Contact form
+const contactForm = document.querySelector('#contact-form');
+contactForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+});

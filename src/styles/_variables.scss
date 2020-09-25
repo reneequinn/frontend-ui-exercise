@@ -17,6 +17,7 @@
   --primary-lt: var(--lt-ecru);
   --primary-lt-er: var(--lt-ecru-1);
   --primary-dk: var(--dk-ecru);
+  --background: var(--lt-grey);
 
   // typography
   --font-color: var(--font-black);
@@ -36,7 +37,4 @@
   --heading-four: 1.75rem;
   --heading-five: 1.5rem;
   --heading-six: 1.25rem;
-
-  // box shadows and background color
-  --background: var(--lt-grey);
 }
