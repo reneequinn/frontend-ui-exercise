@@ -1,9 +1,12 @@
 header {
   padding: 1.5rem 0;
-  background: var(--black);
+  background: rgba(0, 0, 0, 0.9);
   color: var(--white);
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 
   .container {
     display: flex;
