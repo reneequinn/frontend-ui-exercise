@@ -51,8 +51,9 @@
         text-decoration: none;
         padding: 1rem 1.5rem;
         text-transform: uppercase;
-        font-weight: var(--heading-weight);
+        font-weight: 600;
         display: inline-block;
+        transition: 0.2s background ease-out;
 
         &:hover {
           background: var(--primary-dk);
