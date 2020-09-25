@@ -56,6 +56,15 @@
   }
 }
 
+.contact-details {
+  text-align: center;
+  padding-top: 2rem;
+  @include min-lg {
+    text-align: left;
+    padding-top: 0;
+  }
+}
+
 .contact-address,
 .contact-phone {
   font-weight: 600;
@@ -65,7 +74,12 @@
 .contact-social {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 2rem;
+
+  @include min-lg {
+    justify-content: start;
+  }
 }
 
 .contact-social-icon {
@@ -78,6 +92,10 @@
   justify-content: center;
   color: var(--black);
   background: var(--primary);
+
+  &:last-of-type {
+    margin-right: 0;
+  }
 
   &:hover {
     background: var(--primary-dk);

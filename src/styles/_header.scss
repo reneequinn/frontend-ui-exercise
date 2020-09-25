@@ -1,5 +1,5 @@
 header {
-  padding: 1.5rem 0;
+  padding: 0.5rem 0;
   background: rgba(0, 0, 0, 0.95);
   color: var(--white);
   position: fixed;
@@ -13,6 +13,11 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 7rem;
+    height: 7rem;
   }
 }
 
