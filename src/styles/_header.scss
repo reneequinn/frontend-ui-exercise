@@ -95,7 +95,7 @@ nav {
   }
 }
 
-@include min-sm {
+@include min-md {
   .menu-btn {
     display: none;
   }
