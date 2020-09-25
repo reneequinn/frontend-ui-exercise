@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Work+Sans:wght@400;600&display=swap');
 
 :root {
   // colours
@@ -9,8 +9,7 @@
   --lt-ecru: #c0b695;
   --lt-ecru-1: #e6e2d6;
   --dk-ecru: #968859;
-  --dk-grey: #393939;
-  --dk-grey-1: #1f1f1f;
+  --dk-grey: #1f1f1f;
   --lt-grey: #f2f0eb;
   --md-grey: #b8b8a8;
 
@@ -38,12 +37,6 @@
   --heading-five: 1.5rem;
   --heading-six: 1.25rem;
 
-  // box shadows and background colors
+  // box shadows and background color
   --background: var(--lt-grey);
-  --background-dk: var(--dk-grey);
-  --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-  --box-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --box-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }

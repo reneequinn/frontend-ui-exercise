@@ -1,12 +1,16 @@
 header {
   padding: 0.5rem 0;
-  background: var(--dk-grey-1);
+  background: var(--black);
   color: var(--white);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
+
+  h1 {
+    line-height: 1;
+  }
 
   .container {
     display: flex;
@@ -40,7 +44,7 @@ header {
   }
 
   &:hover {
-    background: var(--dk-grey-1);
+    background: var(--dk-grey);
   }
 
   .menu-icon {

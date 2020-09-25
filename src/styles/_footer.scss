@@ -1,5 +1,5 @@
 footer {
-  background: var(--dk-grey-1);
+  background: var(--black);
   color: var(--lt-grey);
   padding: 2rem 0;
 
@@ -37,7 +37,7 @@ footer {
   }
 
   &:hover {
-    background: var(--black);
+    background: var(--dk-grey);
   }
 
   svg {
